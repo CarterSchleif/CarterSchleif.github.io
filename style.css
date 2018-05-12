@@ -1,4 +1,4 @@
-#body{
+.body{
     background-color: rgb(227, 244, 252);
     font-family: Optima, sans-serif;
 }
@@ -21,7 +21,7 @@ box-shadow: 2px 5px 10px 2px rgba(0,0,0,0.2);
     font-size: 45px;
 }
 .header{
-    text-align: center;
+    /* text-align: center; */
 }
 .card {
     box-shadow: 2px 4px 8px 2px rgba(0,0,0,0.2);
@@ -50,4 +50,16 @@ p{
 }
 .logos{
     text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+/* Tablet Landscape */
+@media screen and (max-width: 1060px) {
+    #primary { width:67%; }
+    #secondary { width:30%; margin-left:3%;}  
+}
+/* Tabled Portrait */
+@media screen and (max-width: 768px) {
+    #primary { width:100%; }
+    #secondary { width:100%; margin:0; border:none; }
 }
